@@ -297,7 +297,8 @@
       "chosenToolIds": []
     }
   },
-  "name": "Git for Projects",
+  "name": "Git for Projects for ahmed.farrag",
+  "projectStatus": "Sandbox",
   "imgPattern": 8,
   "showInitials": false,
   "metrics": {

@@ -1,5 +1,6 @@
 {
   "name": "Tutorial_Deployment",
+  "error": null,
   "endpoints": [
     {
       "modelRef": "Clj0CRAY",
@@ -16,6 +17,7 @@
       "mlFlowOutputStyle": "PARSED",
       "testQueries": [
         {
+          "name": null,
           "q": {
             "features": {
               "age_first_order": 20,
@@ -25,6 +27,7 @@
           "headers": []
         },
         {
+          "name": null,
           "q": {
             "features": {
               "campaign": "False"
@@ -33,6 +36,7 @@
           "headers": []
         },
         {
+          "name": null,
           "q": {
             "features": {
               "campaign": "True"
@@ -47,19 +51,28 @@
       "auditPostEnrichData": false,
       "id": "High_Revenue_Customers",
       "type": "STD_PREDICTION",
-      "tags": []
+      "tags": [],
+      "openAPI": null
     }
   ],
   "authMethod": "PUBLIC",
   "authRealm": {
+    "id": null,
     "queryKeys": []
   },
+  "oauth2Config": null,
   "deploymentMonitoring": [],
   "typeBadges": {
     "ML": [
       "High_Revenue_Customers"
     ]
   },
+  "releaseNotes": null,
+  "description": null,
+  "shortDesc": null,
+  "creationTag": null,
+  "versionTag": null,
+  "cobuildTags": null,
   "tags": [],
   "customFields": {},
   "checklists": {
